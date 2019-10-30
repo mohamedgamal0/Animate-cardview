@@ -14,6 +14,8 @@
 		ED72978C236A36F0004AC620 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED72978A236A36F0004AC620 /* LaunchScreen.storyboard */; };
 		ED729797236A36F0004AC620 /* Animate_cardviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED729796236A36F0004AC620 /* Animate_cardviewTests.swift */; };
 		ED7297A2236A36F0004AC620 /* Animate_cardviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7297A1236A36F0004AC620 /* Animate_cardviewUITests.swift */; };
+		ED7297B0236A3777004AC620 /* CardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED7297AF236A3777004AC620 /* CardViewController.xib */; };
+		ED7297B2236A37F4004AC620 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7297B1236A37F4004AC620 /* CardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		ED72979D236A36F0004AC620 /* Animate cardviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Animate cardviewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED7297A1236A36F0004AC620 /* Animate_cardviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate_cardviewUITests.swift; sourceTree = "<group>"; };
 		ED7297A3236A36F0004AC620 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED7297AF236A3777004AC620 /* CardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardViewController.xib; sourceTree = "<group>"; };
+		ED7297B1236A37F4004AC620 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				ED729781236A36EE004AC620 /* AppDelegate.swift */,
 				ED729783236A36EE004AC620 /* ViewController.swift */,
 				ED729785236A36EE004AC620 /* Main.storyboard */,
+				ED7297B1236A37F4004AC620 /* CardViewController.swift */,
+				ED7297AF236A3777004AC620 /* CardViewController.xib */,
 				ED729788236A36F0004AC620 /* Assets.xcassets */,
 				ED72978A236A36F0004AC620 /* LaunchScreen.storyboard */,
 				ED72978D236A36F0004AC620 /* Info.plist */,
@@ -229,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED7297B0236A3777004AC620 /* CardViewController.xib in Resources */,
 				ED72978C236A36F0004AC620 /* LaunchScreen.storyboard in Resources */,
 				ED729789236A36F0004AC620 /* Assets.xcassets in Resources */,
 				ED729787236A36EE004AC620 /* Main.storyboard in Resources */,
@@ -258,6 +265,7 @@
 			files = (
 				ED729784236A36EE004AC620 /* ViewController.swift in Sources */,
 				ED729782236A36EE004AC620 /* AppDelegate.swift in Sources */,
+				ED7297B2236A37F4004AC620 /* CardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
